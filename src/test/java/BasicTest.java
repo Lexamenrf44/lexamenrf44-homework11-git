@@ -5,30 +5,30 @@ import org.junit.jupiter.api.Test;
 public class BasicTest {
 
     @Test
-    @DisplayName("Тестирование 3 > 2")
+    @DisplayName("Тестирование 2 > 1")
     public void test1() {
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertTrue(2 > 1);
 
     }
 
     @Test
-    @DisplayName("Тестирование 4 > 2")
+    @DisplayName("Тестирование 3 > 1")
     public void test2() {
-        Assertions.assertTrue(4 > 2);
+        Assertions.assertTrue(3 > 1);
 
     }
 
     @Test
-    @DisplayName("Тестирование 5 > 2")
+    @DisplayName("Тестирование 4 > 1")
     public void test3() {
-        Assertions.assertTrue(5 > 2);
+        Assertions.assertTrue(4 > 1);
 
     }
 
     @Test
-    @DisplayName("Тестирование 6 > 3")
+    @DisplayName("Тестирование 5 > 1")
     public void test4() {
-        Assertions.assertTrue(5 > 2);
+        Assertions.assertTrue(5 > 1);
 
     }
 
