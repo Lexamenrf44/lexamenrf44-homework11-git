@@ -6,8 +6,15 @@ public class BasicTest {
 
     @Test
     @DisplayName("Тестирование 3 > 2")
-    public void test() {
+    public void test1() {
         Assertions.assertTrue(3 > 2);
+
+    }
+
+    @Test
+    @DisplayName("Тестирование 4 > 2")
+    public void test2() {
+        Assertions.assertTrue(4 > 2);
 
     }
 
