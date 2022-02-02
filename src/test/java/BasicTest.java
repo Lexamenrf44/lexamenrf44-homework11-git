@@ -25,4 +25,11 @@ public class BasicTest {
 
     }
 
+    @Test
+    @DisplayName("Тестирование 6 > 3")
+    public void test4() {
+        Assertions.assertTrue(5 > 2);
+
+    }
+
 }
