@@ -31,7 +31,5 @@ public class BasicTest {
         Assertions.assertTrue(5 > 2);
 
     }
-
     // comment here
-
 }
